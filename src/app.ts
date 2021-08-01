@@ -1,8 +1,6 @@
-/// <reference  path="components/ProjectInput.ts"/>
-/// <reference  path="components/ProjectList.ts"/>
+import { ProjectInput } from './components/project-input.js';
+import { ProjectList } from './components/project-list.js';
 
-namespace DDApp {
-    new ProjectInput();
-    new ProjectList('active');
-    new ProjectList('finished');
-}
+new ProjectInput();
+new ProjectList('active');
+new ProjectList('finished');
